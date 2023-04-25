@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1881990681, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
+  m_Name: Tracker
+  m_EditorClassIdentifier: 
+  bodyPrefab: {fileID: 919983422517884369, guid: 50c85969f9818e344a7b4514e0f2ca78,
+    type: 3}
+  displayPrefab: {fileID: 6923738089435295761, guid: 98f7d432b89713b479922a1705b89473,
+    type: 3}
+  unlockableName: 
+  unlockableDef: {fileID: 0}
+  displayNameToken: ORB_TRACKER_NAME
+  descriptionToken: ORB_TRACKER_DESCRIPTION
+  outroFlavorToken: ORB_TRACKER_OUTRO
+  mainEndingEscapeFailureFlavorToken: ORB_TRACKER_OUTRO_FAILURE
+  primaryColor: {r: 0.35686275, g: 0.30980393, b: 0.41960788, a: 1}
+  desiredSortPosition: 4
+  hidden: 0

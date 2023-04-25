@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 870831823, guid: 6640684985c93709256019488ea570c0, type: 3}
+  m_Name: ContentPack
+  m_EditorClassIdentifier: 
+  bodyPrefabs:
+  - {fileID: 919983422517884369, guid: 50c85969f9818e344a7b4514e0f2ca78, type: 3}
+  - {fileID: 5992027840579068768, guid: 4707bcf17d2a00c4f953f0c03e72e8cf, type: 3}
+  - {fileID: 1193141527753475696, guid: 23e5161b311c3c94ab415cd30fbcfa7f, type: 3}
+  - {fileID: 7777211188073527283, guid: 238ad19f5b427944fbbcaa4e092bf2cd, type: 3}
+  masterPrefabs: []
+  projectilePrefabs:
+  - {fileID: 1193141527753475696, guid: 23e5161b311c3c94ab415cd30fbcfa7f, type: 3}
+  - {fileID: 7777211188073527283, guid: 238ad19f5b427944fbbcaa4e092bf2cd, type: 3}
+  - {fileID: 1892859513886148199, guid: ad6a4945e78a96d42bbc10b1e08faeaa, type: 3}
+  - {fileID: 1892859513886148199, guid: 6f470a5c0e8fda948bcadda47541e71d, type: 3}
+  - {fileID: 1892859513886148199, guid: bb7f59cd1054cf843b0e67d27ca9d87d, type: 3}
+  gameModePrefabs: []
+  effectPrefabs:
+  - {fileID: 2102239401752920829, guid: e46653cc1f39d8944be20e06bff8f795, type: 3}
+  - {fileID: 1273847131483486, guid: be86b340e8d594841b9b8100ce1fc0a4, type: 3}
+  - {fileID: 1273847131483486, guid: fb3eb6f4890bf1445bf572da5b4c3134, type: 3}
+  - {fileID: 99769960323370813, guid: 1f47a42929433654ab7a40ec5747b6b8, type: 3}
+  - {fileID: 6399074728173142065, guid: 5fbbb7c9e957bc44fb2f243b70d2cfc6, type: 3}
+  - {fileID: 6399074728173142065, guid: f9442435c72d72042a1b0d0b67ff3b0a, type: 3}
+  - {fileID: 99769960323370813, guid: 2b84a346593cfbb429601ff2deff2db4, type: 3}
+  - {fileID: 99769960323370813, guid: 3c86daa95186f7641a3c6c3be1dfb10f, type: 3}
+  - {fileID: 6399074728173142065, guid: f4d49a92a9cc700458a1df7fbbed5482, type: 3}
+  - {fileID: 1702947716422087, guid: 3cfe735ee19ed9641ad0adbf8904e72c, type: 3}
+  - {fileID: 1596021342076237, guid: 46bf28bab3e984544bbd3d86b6a275e1, type: 3}
+  - {fileID: 1596021342076237, guid: e437c25dc34cfa14fa916fc680fcef2c, type: 3}
+  - {fileID: 1596021342076237, guid: 75440af24a97a704297af96b6961a4fd, type: 3}
+  - {fileID: 1596021342076237, guid: f6c271f106e18cb4a86713da688a19d0, type: 3}
+  - {fileID: 663018787038455462, guid: 5eb2af31fd9732e4e88ba2f0a205091f, type: 3}
+  - {fileID: 1792422487325838, guid: 18da3634a64acf64eb8f6eca9873d4d1, type: 3}
+  networkedObjectPrefabs: []
+  skillDefs:
+  - {fileID: 11400000, guid: 94fbef98365dc724291465a4fd676331, type: 2}
+  - {fileID: 11400000, guid: c80ea48354cc64d49836662200c8d586, type: 2}
+  - {fileID: 11400000, guid: cc915af76f9145340977b9a990656bc1, type: 2}
+  - {fileID: 11400000, guid: c0413ee23fce2c447ba4b773819a823d, type: 2}
+  - {fileID: 11400000, guid: d3e0875af1ec79043bfa61b75f77d091, type: 2}
+  skillFamilies:
+  - {fileID: 11400000, guid: 092429621e19e894b923b1c536f59ccf, type: 2}
+  - {fileID: 11400000, guid: 6701d35b599158c40a7c3a8b58cb816a, type: 2}
+  - {fileID: 11400000, guid: fb78492700af65d47b258d59423ed39a, type: 2}
+  - {fileID: 11400000, guid: 824b730c9c536b64999096634ed3a7fa, type: 2}
+  sceneDefs: []
+  itemDefs: []
+  itemTierDefs: []
+  itemRelationshipProviders: []
+  itemRelationshipTypes: []
+  equipmentDefs: []
+  buffDefs:
+  - {fileID: 11400000, guid: 7b63f73800b924e4097cf7a8ba02f86b, type: 2}
+  eliteDefs: []
+  unlockableDefs: []
+  survivorDefs:
+  - {fileID: 11400000, guid: fa7a1765bb19f8e47b23eac29f2a9c09, type: 2}
+  artifactDefs: []
+  surfaceDefs: []
+  networkSoundEventDefs:
+  - {fileID: 11400000, guid: 0eb030405e405374097820e974507009, type: 2}
+  - {fileID: 11400000, guid: 60382e37852c97c4bbb4355cdbe598c5, type: 2}
+  - {fileID: 11400000, guid: 39f80f87e167698409e0911a17cbfbd5, type: 2}
+  - {fileID: 11400000, guid: 72495cf374613c4488147c7ef90fdc54, type: 2}
+  musicTrackDefs: []
+  gameEndingDefs: []
+  miscPickupDefs: []
+  entityStateConfigurations: []
+  entityStateTypes:
+  - _typeName: Tracker.States.ChargeCannon, Tracker, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - _typeName: Tracker.States.FireCannon, Tracker, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - _typeName: Tracker.States.FireCannonCharged, Tracker, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - _typeName: Tracker.States.FireSaw, Tracker, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - _typeName: Tracker.States.MagnetDash, Tracker, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - _typeName: Tracker.States.InvisBlink, Tracker, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - _typeName: Tracker.States.FireRebounder, Tracker, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  expansionDefs: []
+  entitlementDefs: []
